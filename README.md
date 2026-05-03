@@ -16,3 +16,6 @@ This project requires the `PyWiSim` simulation framework to run. Because PyWiSim
 python BCP_test1.py --scheduling=LIFO
 python BCP_test2.py --scheduling=FIFO --arrival_rate=0.8
 python random_walk_test.py --scheduling=LIFO --arrival_rate=0.5
+
+### Data and plotting:
+The data is simply copied from the terminal output of the test scripts. The plotting is done using Matplotlib, and the code for plotting is included in the `data_and_plot` folder with the corresponding data. You can run the plotting scripts plot.py to visualize the results.
