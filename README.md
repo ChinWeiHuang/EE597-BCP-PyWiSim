@@ -12,6 +12,7 @@ This project requires the `PyWiSim` simulation framework to run. Because PyWiSim
 4. Run the test scripts directly from that directory.
 
 ### Example Commands:
-`python BCP_test1.py --scheduling=LIFO`
-`python BCP_test2.py --scheduling=FIFO --arrival_rate=0.8`
-`python random_walk_test.py --scheduling=LIFO --arrival_rate=0.5`
+```bash
+python BCP_test1.py --scheduling=LIFO
+python BCP_test2.py --scheduling=FIFO --arrival_rate=0.8
+python random_walk_test.py --scheduling=LIFO --arrival_rate=0.5
