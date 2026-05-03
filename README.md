@@ -8,7 +8,7 @@ This project requires the `PyWiSim` simulation framework to run. Because PyWiSim
 ## Setup Instructions
 1. Clone the PyWiSim repository to your local machine.
 2. Clone this repository.
-3. Copy all Python scripts from this repository (`BCP.py`, `BCP_test1.py`, etc.) into the `examples` folder (or the root directory, depending on your path setup) of your local PyWiSim repository.
+3. Copy all Python scripts from this repository (`BCP.py`, `BCP_test1.py`, etc.) into the `PyWiSim` folder (or the root directory, depending on your path setup) of your local PyWiSim repository.
 4. Run the test scripts directly from that directory.
 
 ### Example Commands:
