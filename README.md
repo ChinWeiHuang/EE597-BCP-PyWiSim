@@ -5,6 +5,9 @@ This repository contains the implementation of the Backpressure Collection Proto
 ## Dependency: PyWiSim
 This project requires the `PyWiSim` simulation framework to run. Because PyWiSim is a separate framework, it is not included in this repository.
 
+## Report
+The report (in PDF format) for this project is available in the `paper` folder. It includes the LaTeX source code, the compiled PDF, and the associated figures.
+
 ## Setup Instructions
 1. Clone the PyWiSim repository to your local machine.
 2. Clone this repository.
