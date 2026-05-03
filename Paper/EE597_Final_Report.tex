@@ -135,16 +135,23 @@ Fig.~\ref{fig_thr} details the results of Test 2. We observe that BCP (both LIFO
 \end{figure}
 
 \subsection{Packet Delay Scaling}
-The choice of queue scheduling profoundly impacts the delay under varying loads, as shown in Fig.~\ref{fig_del}. 
+The choice of queue scheduling profoundly impacts the delay under varying loads, both below and above the network's stability limit.
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=\linewidth]{delay_comparison_low_rate.png}}
+\caption{Average delay for successfully delivered packets below the stability limit ($\le 0.8$ pkt/s).}
+\label{fig_del_low}
+\end{figure}
+
+Fig.~\ref{fig_del_low} highlights the delay performance purely within the stable regime. Even when the network is uncongested, BCP-LIFO exhibits a significant advantage over BCP-FIFO, maintaining a remarkably constant and low delivery delay of \textbf{2.01 seconds}. In contrast, BCP-FIFO incurs a significantly higher delay (ranging from 13 to 33 seconds) because newly arrived packets must wait for the structural queue gradients to flush through the network.
 
 \begin{figure}[htbp]
 \centerline{\includegraphics[width=\linewidth]{delay_comparison_arr.png}}
-\caption{Average delay for successfully delivered packets versus arrival rate.}
-\label{fig_del}
+\caption{Average delay across all arrival rates, illustrating the unbounded queue growth for FIFO above capacity.}
+\label{fig_del_high}
 \end{figure}
 
-For BCP-LIFO, the delay for delivered packets remains remarkably constant at \textbf{2.01 seconds}, even when the arrival rate pushes the network past its capacity boundary (0.85 pkt/s). Conversely, BCP-FIFO sees its delivery delay skyrocket to over 1,200 seconds once the network is saturated, as packets must slowly migrate through massive queues. 
-
+This advantage becomes exponential once the arrival rate pushes the network past its capacity boundary (0.85 pkt/s), as shown in Fig.~\ref{fig_del_high}. While BCP-LIFO continues to guarantee a 2.01-second delivery delay by allowing fresh packets to immediately bypass the saturated queues, BCP-FIFO sees its delivery delay skyrocket to over 1,200 seconds. Because FIFO forces packets to wait behind an infinitely growing backlog, its delay scales unboundedly above the stability limit, effectively trapping all newly generated traffic.
 \section{Conclusion}
 This project successfully implemented and evaluated the Backpressure Collection Protocol against a Random Walk baseline in a simulated wireless environment. The results clearly outline BCP's superior stability region (0.85 pkt/s vs 0.18 pkt/s). Through queue backlog analysis, we provided concrete empirical justification for LIFO scheduling in backpressure networks. 
 

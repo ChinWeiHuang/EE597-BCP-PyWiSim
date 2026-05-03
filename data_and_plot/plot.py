@@ -47,3 +47,22 @@ plt.title('Delay vs Arrival Rate')
 plt.legend()
 plt.grid(True)
 plt.savefig('delay_comparison_arr.png')
+
+# Data for low arrival rates (0.2, 0.4, 0.6, 0.8)
+rates_low = [0.2, 0.4, 0.6, 0.8]
+bcp_fifo_low = [32.95, 17.47, 17.76, 13.72]
+bcp_lifo_low = [2.01, 2.01, 2.01, 2.01]
+rw_fifo_low = [3.3, 3.57, 4.1, 7.17]
+rw_lifo_low = [3.2, 3.66, 4.1, 7.56]
+
+plt.figure(figsize=(10, 6))
+plt.plot(rates_low, bcp_fifo_low, marker='o', label='BCP FIFO')
+plt.plot(rates_low, bcp_lifo_low, marker='s', label='BCP LIFO')
+plt.plot(rates_low, rw_fifo_low, marker='^', label='Random Walk FIFO')
+plt.plot(rates_low, rw_lifo_low, marker='x', label='Random Walk LIFO')
+plt.xlabel('Arrival Rate (packets/second)')
+plt.ylabel('Average Delay for Arrived Packets (seconds)')
+plt.title('Delay vs Arrival Rate (Below Stability Limit)')
+plt.legend()
+plt.grid(True)
+plt.savefig('delay_comparison_low_rate.png')
