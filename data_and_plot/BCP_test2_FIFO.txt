@@ -1,0 +1,139 @@
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./BCP_test2.py --scheduling=FIFO --arrival_rate=0.2
+
+Scheduling method: FIFO
+
+Average delay for all packets: 4550.89 seconds
+
+Average delay for packets that reached the sink: 32.95 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 0.2 packets/second
+
+Average throughput: 0.16 packets/second
+
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./BCP_test2.py --scheduling=FIFO --arrival_rate=0.4
+
+Scheduling method: FIFO
+
+Average delay for all packets: 2316.37 seconds
+
+Average delay for packets that reached the sink: 17.47 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 0.4 packets/second
+
+Average throughput: 0.33 packets/second
+
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./BCP_test2.py --scheduling=FIFO --arrival_rate=0.6
+
+Scheduling method: FIFO
+
+Average delay for all packets: 1369.77 seconds
+
+Average delay for packets that reached the sink: 17.76 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 0.6 packets/second
+
+Average throughput: 0.50 packets/second
+
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./BCP_test2.py --scheduling=FIFO --arrival_rate=0.8
+
+Scheduling method: FIFO
+
+Average delay for all packets: 977.31 seconds
+
+Average delay for packets that reached the sink: 13.72 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 0.8 packets/second
+
+Average throughput: 0.68 packets/second
+
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./BCP_test2.py --scheduling=FIFO --arrival_rate=1.0
+
+Scheduling method: FIFO
+
+Average delay for all packets: 767.56 seconds
+
+Average delay for packets that reached the sink: 11.40 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 1.0 packets/second
+
+Average throughput: 0.85 packets/second
+
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./BCP_test2.py --scheduling=FIFO --arrival_rate=1.2
+
+Scheduling method: FIFO
+
+Average delay for all packets: 1121.55 seconds
+
+Average delay for packets that reached the sink: 712.18 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 1.2 packets/second
+
+Average throughput: 0.85 packets/second
+
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./BCP_test2.py --scheduling=FIFO --arrival_rate=1.4
+
+Scheduling method: FIFO
+
+Average delay for all packets: 1132.58 seconds
+
+Average delay for packets that reached the sink: 1039.60 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 1.4 packets/second
+
+Average throughput: 0.85 packets/second
+
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./BCP_test2.py --scheduling=FIFO --arrival_rate=1.6
+
+Scheduling method: FIFO
+
+Average delay for all packets: 1044.96 seconds
+
+Average delay for packets that reached the sink: 1192.80 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 1.6 packets/second
+
+Average throughput: 0.85 packets/second
+
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./BCP_test2.py --scheduling=FIFO --arrival_rate=1.8
+
+Scheduling method: FIFO
+
+Average delay for all packets: 935.38 seconds
+
+Average delay for packets that reached the sink: 1257.05 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 1.8 packets/second
+
+Average throughput: 0.85 packets/second
+
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./BCP_test2.py --scheduling=FIFO --arrival_rate=2.0
+
+Scheduling method: FIFO
+
+Average delay for all packets: 828.82 seconds
+
+Average delay for packets that reached the sink: 1270.76 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 2.0 packets/second
+
+Average throughput: 0.85 packets/second

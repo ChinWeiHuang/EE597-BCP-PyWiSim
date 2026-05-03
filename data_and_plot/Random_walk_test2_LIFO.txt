@@ -1,0 +1,139 @@
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./random_walk_test.py --scheduling=LIFO --arrival_rate=0.2
+
+Scheduling method: LIFO
+
+Average delay for all packets: 19640.56 seconds
+
+Average delay for packets that reached the sink: 3.20 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 0.2 packets/second
+
+Average throughput: 0.04 packets/second
+
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./random_walk_test.py --scheduling=LIFO --arrival_rate=0.4
+
+Scheduling method: LIFO
+
+Average delay for all packets: 9930.79 seconds
+
+Average delay for packets that reached the sink: 3.66 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 0.4 packets/second
+
+Average throughput: 0.08 packets/second
+
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./random_walk_test.py --scheduling=LIFO --arrival_rate=0.6
+
+Scheduling method: LIFO
+
+Average delay for all packets: 6531.37 seconds
+
+Average delay for packets that reached the sink: 4.10 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 0.6 packets/second
+
+Average throughput: 0.13 packets/second
+
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./random_walk_test.py --scheduling=LIFO --arrival_rate=0.8
+
+Scheduling method: LIFO
+
+Average delay for all packets: 4911.56 seconds
+
+Average delay for packets that reached the sink: 7.56 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 0.8 packets/second
+
+Average throughput: 0.18 packets/second
+
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./random_walk_test.py --scheduling=LIFO --arrival_rate=1.0
+
+Scheduling method: LIFO
+
+Average delay for all packets: 3234.06 seconds
+
+Average delay for packets that reached the sink: 3.62 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 1.0 packets/second
+
+Average throughput: 0.18 packets/second
+
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./random_walk_test.py --scheduling=LIFO --arrival_rate=1.2
+
+Scheduling method: LIFO
+
+Average delay for all packets: 2250.66 seconds
+
+Average delay for packets that reached the sink: 3.49 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 1.2 packets/second
+
+Average throughput: 0.18 packets/second
+
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./random_walk_test.py --scheduling=LIFO --arrival_rate=1.4
+
+Scheduling method: LIFO
+
+Average delay for all packets: 1657.43 seconds
+
+Average delay for packets that reached the sink: 3.48 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 1.4 packets/second
+
+Average throughput: 0.18 packets/second
+
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./random_walk_test.py --scheduling=LIFO --arrival_rate=1.6
+
+Scheduling method: LIFO
+
+Average delay for all packets: 1278.96 seconds
+
+Average delay for packets that reached the sink: 3.52 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 1.6 packets/second
+
+Average throughput: 0.17 packets/second
+
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./random_walk_test.py --scheduling=LIFO --arrival_rate=1.8
+
+Scheduling method: LIFO
+
+Average delay for all packets: 991.86 seconds
+
+Average delay for packets that reached the sink: 3.59 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 1.8 packets/second
+
+Average throughput: 0.18 packets/second
+
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./random_walk_test.py --scheduling=LIFO --arrival_rate=2.0
+
+Scheduling method: LIFO
+
+Average delay for all packets: 823.51 seconds
+
+Average delay for packets that reached the sink: 3.32 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 2.0 packets/second
+
+Average throughput: 0.17 packets/second

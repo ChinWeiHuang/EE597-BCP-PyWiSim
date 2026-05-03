@@ -1,0 +1,290 @@
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python .\BCP_test1.py --scheduling=FIFO
+[0.00] A got 'pkt 0, gen_time=0' from external arrival
+[1.00] A got 'pkt 1, gen_time=1' from external arrival
+[1.00] A sends 'pkt 0, gen_time=0' to B (weight=0.95)
+[1.00] A >> ('BCP', 'A', 'pkt 0, gen_time=0')
+[1.01] B <- A: ('BCP', 'A', 'pkt 0, gen_time=0')
+[1.01] B got 'pkt 0, gen_time=0' from A (via A)
+[2.00] A got 'pkt 2, gen_time=2' from external arrival
+[2.00] A sends 'pkt 1, gen_time=1' to C (weight=0.95)
+[2.00] A >> ('BCP', 'A', 'pkt 1, gen_time=1')
+[2.00] B has no positive weight neighbors to send its payloads. Best weight: -0.04 to C, ETX to C: 1.04
+[2.01] C <- A: ('BCP', 'A', 'pkt 1, gen_time=1')
+[2.01] C got 'pkt 1, gen_time=1' from A (via A)
+[3.00] A got 'pkt 3, gen_time=3' from external arrival
+[3.00] A has no positive weight neighbors to send its payloads. Best weight: -0.05 to B, ETX to B: 1.05
+[3.00] B has no positive weight neighbors to send its payloads. Best weight: -0.04 to D, ETX to D: 1.04
+[3.00] C has no positive weight neighbors to send its payloads. Best weight: -0.04 to E, ETX to E: 1.04
+[4.00] A got 'pkt 4, gen_time=4' from external arrival
+[4.00] A sends 'pkt 2, gen_time=2' to B (weight=0.95)
+[4.00] A >> ('BCP', 'A', 'pkt 2, gen_time=2')
+[4.00] B has no positive weight neighbors to send its payloads. Best weight: -0.04 to D, ETX to D: 1.04
+[4.00] C has no positive weight neighbors to send its payloads. Best weight: -0.04 to E, ETX to E: 1.04
+[4.01] B <- A: ('BCP', 'A', 'pkt 2, gen_time=2')
+[4.01] B got 'pkt 2, gen_time=2' from A (via A)
+[5.00] A got 'pkt 5, gen_time=5' from external arrival
+[5.00] A sends 'pkt 3, gen_time=3' to C (weight=0.95)
+[5.00] A >> ('BCP', 'A', 'pkt 3, gen_time=3')
+[5.00] B sends 'pkt 0, gen_time=0' to D (weight=0.96)
+[5.00] B >> ('BCP', 'B', 'pkt 0, gen_time=0')
+[5.00] C has no positive weight neighbors to send its payloads. Best weight: -0.04 to E, ETX to E: 1.04
+[5.01] C <- A: ('BCP', 'A', 'pkt 3, gen_time=3')
+[5.01] C got 'pkt 3, gen_time=3' from A (via A)
+[5.01] D <- B: ('BCP', 'B', 'pkt 0, gen_time=0')
+[5.01] D got 'pkt 0, gen_time=0' from B (via B)
+[6.00] A got 'pkt 6, gen_time=6' from external arrival
+[6.00] A sends 'pkt 4, gen_time=4' to B (weight=0.95)
+[6.00] A >> ('BCP', 'A', 'pkt 4, gen_time=4')
+[6.00] B has no positive weight neighbors to send its payloads. Best weight: -0.12 to E, ETX to E: 1.12
+[6.00] C sends 'pkt 1, gen_time=1' to E (weight=0.96)
+[6.00] C >> ('BCP', 'C', 'pkt 1, gen_time=1')
+[6.00] D has no positive weight neighbors to send its payloads. Best weight: -0.04 to E, ETX to E: 1.04
+[6.01] B <- A: ('BCP', 'A', 'pkt 4, gen_time=4')
+[6.01] B got 'pkt 4, gen_time=4' from A (via A)
+[6.01] E <- C: ('BCP', 'C', 'pkt 1, gen_time=1')
+[6.01] E got 'pkt 1, gen_time=1' from C (via C)
+[7.00] A got 'pkt 7, gen_time=7' from external arrival
+[7.00] A sends 'pkt 5, gen_time=5' to C (weight=0.95)
+[7.00] A >> ('BCP', 'A', 'pkt 5, gen_time=5')
+[7.00] B has no positive weight neighbors to send its payloads. Best weight: -0.04 to C, ETX to C: 1.04
+[7.00] C has no positive weight neighbors to send its payloads. Best weight: -1.04 to E, ETX to E: 1.04
+[7.00] D has no positive weight neighbors to send its payloads. Best weight: -0.04 to F, ETX to F: 1.04
+[7.00] E has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 1.04
+[7.01] C <- A: ('BCP', 'A', 'pkt 5, gen_time=5')
+[7.01] C got 'pkt 5, gen_time=5' from A (via A)
+[8.00] A got 'pkt 8, gen_time=8' from external arrival
+[8.00] A has no positive weight neighbors to send its payloads. Best weight: -0.05 to B, ETX to B: 1.05
+[8.00] B has no positive weight neighbors to send its payloads. Best weight: -0.04 to D, ETX to D: 1.04
+[8.00] C has no positive weight neighbors to send its payloads. Best weight: -0.04 to E, ETX to E: 1.04
+[8.00] D has no positive weight neighbors to send its payloads. Best weight: -0.04 to F, ETX to F: 1.04
+[8.00] E has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 1.04
+[9.00] A got 'pkt 9, gen_time=9' from external arrival
+[9.00] A sends 'pkt 6, gen_time=6' to B (weight=0.95)
+[9.00] A >> ('BCP', 'A', 'pkt 6, gen_time=6')
+[9.00] B has no positive weight neighbors to send its payloads. Best weight: -0.04 to D, ETX to D: 1.04
+[9.00] C has no positive weight neighbors to send its payloads. Best weight: -0.04 to E, ETX to E: 1.04
+[9.00] D has no positive weight neighbors to send its payloads. Best weight: -0.04 to F, ETX to F: 1.04
+[9.00] E has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 1.04
+[9.01] B <- A: ('BCP', 'A', 'pkt 6, gen_time=6')
+[9.01] B got 'pkt 6, gen_time=6' from A (via A)
+[10.00] A got 'pkt 10, gen_time=10' from external arrival
+[10.00] A sends 'pkt 7, gen_time=7' to C (weight=0.95)
+[10.00] A >> ('BCP', 'A', 'pkt 7, gen_time=7')
+[10.00] B sends 'pkt 2, gen_time=2' to D (weight=0.96)
+[10.00] B >> ('BCP', 'B', 'pkt 2, gen_time=2')
+[10.00] C has no positive weight neighbors to send its payloads. Best weight: -0.04 to E, ETX to E: 1.04
+[10.00] D has no positive weight neighbors to send its payloads. Best weight: -0.04 to F, ETX to F: 1.04
+[10.00] E has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 1.04
+[10.01] C <- A: ('BCP', 'A', 'pkt 7, gen_time=7')
+[10.01] C got 'pkt 7, gen_time=7' from A (via A)
+[10.01] D <- B: ('BCP', 'B', 'pkt 2, gen_time=2')
+[10.01] D got 'pkt 2, gen_time=2' from B (via B)
+[11.00] A got 'pkt 11, gen_time=11' from external arrival
+[11.00] A sends 'pkt 8, gen_time=8' to B (weight=0.95)
+[11.00] A >> ('BCP', 'A', 'pkt 8, gen_time=8')
+[11.00] B has no positive weight neighbors to send its payloads. Best weight: -0.04 to F, ETX to F: 2.04
+[11.00] C sends 'pkt 3, gen_time=3' to E (weight=0.96)
+[11.00] C >> ('BCP', 'C', 'pkt 3, gen_time=3')
+[11.00] D sends 'pkt 0, gen_time=0' to F (weight=0.96)
+[11.00] D >> ('BCP', 'D', 'pkt 0, gen_time=0')
+[11.00] E has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 1.04
+[11.01] B <- A: ('BCP', 'A', 'pkt 8, gen_time=8')
+[11.01] B got 'pkt 8, gen_time=8' from A (via A)
+[11.01] E <- C: ('BCP', 'C', 'pkt 3, gen_time=3')
+[11.01] E got 'pkt 3, gen_time=3' from C (via C)
+[11.01] F <- D: ('BCP', 'D', 'pkt 0, gen_time=0')
+[11.01] F got 'pkt 0, gen_time=0' from D (via D)
+[12.00] A got 'pkt 12, gen_time=12' from external arrival
+[12.00] A sends 'pkt 9, gen_time=9' to C (weight=0.95)
+[12.00] A >> ('BCP', 'A', 'pkt 9, gen_time=9')
+[12.00] B sends 'pkt 4, gen_time=4' to D (weight=0.96)
+[12.00] B >> ('BCP', 'B', 'pkt 4, gen_time=4')
+[12.00] C has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 2.04
+[12.00] D has no positive weight neighbors to send its payloads. Best weight: -0.12 to G, ETX to G: 1.12
+[12.00] E sends 'pkt 1, gen_time=1' to G (weight=0.96)
+[12.00] E >> ('BCP', 'E', 'pkt 1, gen_time=1')
+[12.00] F has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 1.04
+[12.01] C <- A: ('BCP', 'A', 'pkt 9, gen_time=9')
+[12.01] C got 'pkt 9, gen_time=9' from A (via A)
+[12.01] D <- B: ('BCP', 'B', 'pkt 4, gen_time=4')
+[12.01] D got 'pkt 4, gen_time=4' from B (via B)
+[12.01] G <- E: ('BCP', 'E', 'pkt 1, gen_time=1')
+[12.01] G (sink) received data: 'pkt 1, gen_time=1'
+[13.00] A got 'pkt 13, gen_time=13' from external arrival
+[13.00] A sends 'pkt 10, gen_time=10' to B (weight=0.95)
+[13.00] A >> ('BCP', 'A', 'pkt 10, gen_time=10')
+[13.00] B has no positive weight neighbors to send its payloads. Best weight: -0.12 to E, ETX to E: 1.12
+[13.00] C sends 'pkt 5, gen_time=5' to E (weight=0.96)
+[13.00] C >> ('BCP', 'C', 'pkt 5, gen_time=5')
+[13.00] D sends 'pkt 2, gen_time=2' to G (weight=0.88)
+[13.00] D >> ('BCP', 'D', 'pkt 2, gen_time=2')
+[13.00] E has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 1.04
+[13.00] F has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 1.04
+[13.01] B <- A: ('BCP', 'A', 'pkt 10, gen_time=10')
+[13.01] B got 'pkt 10, gen_time=10' from A (via A)
+[13.01] E <- C: ('BCP', 'C', 'pkt 5, gen_time=5')
+[13.01] E got 'pkt 5, gen_time=5' from C (via C)
+[13.01] G <- D: ('BCP', 'D', 'pkt 2, gen_time=2')
+[13.01] G (sink) received data: 'pkt 2, gen_time=2'
+[14.00] A got 'pkt 14, gen_time=14' from external arrival
+[14.00] A sends 'pkt 11, gen_time=11' to C (weight=0.95)
+[14.00] A >> ('BCP', 'A', 'pkt 11, gen_time=11')
+[14.00] B sends 'pkt 6, gen_time=6' to D (weight=0.96)
+[14.00] B >> ('BCP', 'B', 'pkt 6, gen_time=6')
+[14.00] C has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 2.04
+[14.00] D has no positive weight neighbors to send its payloads. Best weight: -0.12 to G, ETX to G: 1.12
+[14.00] E sends 'pkt 3, gen_time=3' to G (weight=0.96)
+[14.00] E >> ('BCP', 'E', 'pkt 3, gen_time=3')
+[14.00] F has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 1.04
+[14.01] C <- A: ('BCP', 'A', 'pkt 11, gen_time=11')
+[14.01] C got 'pkt 11, gen_time=11' from A (via A)
+[14.01] D <- B: ('BCP', 'B', 'pkt 6, gen_time=6')
+[14.01] D got 'pkt 6, gen_time=6' from B (via B)
+[14.01] G <- E: ('BCP', 'E', 'pkt 3, gen_time=3')
+[14.01] G (sink) received data: 'pkt 3, gen_time=3'
+[15.00] A got 'pkt 15, gen_time=15' from external arrival
+[15.00] A sends 'pkt 12, gen_time=12' to B (weight=0.95)
+[15.00] A >> ('BCP', 'A', 'pkt 12, gen_time=12')
+[15.00] B has no positive weight neighbors to send its payloads. Best weight: -0.12 to E, ETX to E: 1.12
+[15.00] C sends 'pkt 7, gen_time=7' to E (weight=0.96)
+[15.00] C >> ('BCP', 'C', 'pkt 7, gen_time=7')
+[15.00] D sends 'pkt 4, gen_time=4' to G (weight=0.88)
+[15.00] D >> ('BCP', 'D', 'pkt 4, gen_time=4')
+[15.00] E has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 1.04
+[15.00] F has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 1.04
+[15.01] B <- A: ('BCP', 'A', 'pkt 12, gen_time=12')
+[15.01] B got 'pkt 12, gen_time=12' from A (via A)
+[15.01] E <- C: ('BCP', 'C', 'pkt 7, gen_time=7')
+[15.01] E got 'pkt 7, gen_time=7' from C (via C)
+[15.01] G <- D: ('BCP', 'D', 'pkt 4, gen_time=4')
+[15.01] G (sink) received data: 'pkt 4, gen_time=4'
+[16.00] A got 'pkt 16, gen_time=16' from external arrival
+[16.00] A sends 'pkt 13, gen_time=13' to C (weight=0.95)
+[16.00] A >> ('BCP', 'A', 'pkt 13, gen_time=13')
+[16.00] B sends 'pkt 8, gen_time=8' to D (weight=0.96)
+[16.00] B >> ('BCP', 'B', 'pkt 8, gen_time=8')
+[16.00] C has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 2.04
+[16.00] D has no positive weight neighbors to send its payloads. Best weight: -0.12 to G, ETX to G: 1.12
+[16.00] E sends 'pkt 5, gen_time=5' to G (weight=0.96)
+[16.00] E >> ('BCP', 'E', 'pkt 5, gen_time=5')
+[16.00] F has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 1.04
+[16.01] C <- A: ('BCP', 'A', 'pkt 13, gen_time=13')
+[16.01] C got 'pkt 13, gen_time=13' from A (via A)
+[16.01] D <- B: ('BCP', 'B', 'pkt 8, gen_time=8')
+[16.01] D got 'pkt 8, gen_time=8' from B (via B)
+[16.01] G <- E: ('BCP', 'E', 'pkt 5, gen_time=5')
+[16.01] G (sink) received data: 'pkt 5, gen_time=5'
+[17.00] A got 'pkt 17, gen_time=17' from external arrival
+[17.00] A sends 'pkt 14, gen_time=14' to B (weight=0.95)
+[17.00] A >> ('BCP', 'A', 'pkt 14, gen_time=14')
+[17.00] B has no positive weight neighbors to send its payloads. Best weight: -0.12 to E, ETX to E: 1.12
+[17.00] C sends 'pkt 9, gen_time=9' to E (weight=0.96)
+[17.00] C >> ('BCP', 'C', 'pkt 9, gen_time=9')
+[17.00] D sends 'pkt 6, gen_time=6' to G (weight=0.88)
+[17.00] D >> ('BCP', 'D', 'pkt 6, gen_time=6')
+[17.00] E has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 1.04
+[17.00] F has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 1.04
+[17.01] B <- A: ('BCP', 'A', 'pkt 14, gen_time=14')
+[17.01] B got 'pkt 14, gen_time=14' from A (via A)
+[17.01] E <- C: ('BCP', 'C', 'pkt 9, gen_time=9')
+[17.01] E got 'pkt 9, gen_time=9' from C (via C)
+[17.01] G <- D: ('BCP', 'D', 'pkt 6, gen_time=6')
+[17.01] G (sink) received data: 'pkt 6, gen_time=6'
+[18.00] A got 'pkt 18, gen_time=18' from external arrival
+[18.00] A sends 'pkt 15, gen_time=15' to C (weight=0.95)
+[18.00] A >> ('BCP', 'A', 'pkt 15, gen_time=15')
+[18.00] B sends 'pkt 10, gen_time=10' to D (weight=0.96)
+[18.00] B >> ('BCP', 'B', 'pkt 10, gen_time=10')
+[18.00] C has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 2.04
+[18.00] D has no positive weight neighbors to send its payloads. Best weight: -0.12 to G, ETX to G: 1.12
+[18.00] E sends 'pkt 7, gen_time=7' to G (weight=0.96)
+[18.00] E >> ('BCP', 'E', 'pkt 7, gen_time=7')
+[18.00] F has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 1.04
+[18.01] C <- A: ('BCP', 'A', 'pkt 15, gen_time=15')
+[18.01] C got 'pkt 15, gen_time=15' from A (via A)
+[18.01] G <- E: ('BCP', 'E', 'pkt 7, gen_time=7')
+[18.01] G (sink) received data: 'pkt 7, gen_time=7'
+[19.00] A got 'pkt 19, gen_time=19' from external arrival
+[19.00] A sends 'pkt 16, gen_time=16' to B (weight=0.95)
+[19.00] A >> ('BCP', 'A', 'pkt 16, gen_time=16')
+[19.00] B has no positive weight neighbors to send its payloads. Best weight: -0.04 to D, ETX to D: 1.04
+[19.00] C sends 'pkt 11, gen_time=11' to E (weight=0.96)
+[19.00] C >> ('BCP', 'C', 'pkt 11, gen_time=11')
+[19.00] D has no positive weight neighbors to send its payloads. Best weight: -0.12 to G, ETX to G: 1.12
+[19.00] E has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 1.04
+[19.00] F has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 1.04
+[19.01] B <- A: ('BCP', 'A', 'pkt 16, gen_time=16')
+[19.01] B got 'pkt 16, gen_time=16' from A (via A)
+[19.01] E <- C: ('BCP', 'C', 'pkt 11, gen_time=11')
+[19.01] E got 'pkt 11, gen_time=11' from C (via C)
+[20.00] A has no positive weight neighbors to send its payloads. Best weight: -0.05 to C, ETX to C: 1.05
+[20.00] B sends 'pkt 12, gen_time=12' to D (weight=0.96)
+[20.00] B >> ('BCP', 'B', 'pkt 12, gen_time=12')
+[20.00] C has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 2.04
+[20.00] D has no positive weight neighbors to send its payloads. Best weight: -0.12 to G, ETX to G: 1.12
+[20.00] E sends 'pkt 9, gen_time=9' to G (weight=0.96)
+[20.00] E >> ('BCP', 'E', 'pkt 9, gen_time=9')
+[20.00] F has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 1.04
+[20.01] D <- B: ('BCP', 'B', 'pkt 12, gen_time=12')
+[20.01] D got 'pkt 12, gen_time=12' from B (via B)
+[20.01] G <- E: ('BCP', 'E', 'pkt 9, gen_time=9')
+[20.01] G (sink) received data: 'pkt 9, gen_time=9'
+[21.00] A has no positive weight neighbors to send its payloads. Best weight: -0.05 to B, ETX to B: 1.05
+[21.00] B has no positive weight neighbors to send its payloads. Best weight: -0.12 to E, ETX to E: 1.12
+[21.00] C has no positive weight neighbors to send its payloads. Best weight: -0.04 to E, ETX to E: 1.04
+[21.00] D sends 'pkt 8, gen_time=8' to G (weight=0.88)
+[21.00] D >> ('BCP', 'D', 'pkt 8, gen_time=8')
+[21.00] E has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 1.04
+[21.00] F has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 1.04
+[21.01] G <- D: ('BCP', 'D', 'pkt 8, gen_time=8')
+[21.01] G (sink) received data: 'pkt 8, gen_time=8'
+[22.00] A has no positive weight neighbors to send its payloads. Best weight: -0.05 to B, ETX to B: 1.05
+[22.00] B has no positive weight neighbors to send its payloads. Best weight: -0.04 to D, ETX to D: 1.04
+[22.00] C has no positive weight neighbors to send its payloads. Best weight: -0.04 to E, ETX to E: 1.04
+[22.00] D has no positive weight neighbors to send its payloads. Best weight: -0.12 to G, ETX to G: 1.12
+[22.00] E has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 1.04
+[22.00] F has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 1.04
+[23.00] A has no positive weight neighbors to send its payloads. Best weight: -0.05 to B, ETX to B: 1.05
+[23.00] B has no positive weight neighbors to send its payloads. Best weight: -0.04 to D, ETX to D: 1.04
+[23.00] C has no positive weight neighbors to send its payloads. Best weight: -0.04 to E, ETX to E: 1.04
+[23.00] D has no positive weight neighbors to send its payloads. Best weight: -0.12 to G, ETX to G: 1.12
+[23.00] E has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 1.04
+[23.00] F has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 1.04
+[24.00] A has no positive weight neighbors to send its payloads. Best weight: -0.05 to B, ETX to B: 1.05
+[24.00] B has no positive weight neighbors to send its payloads. Best weight: -0.04 to D, ETX to D: 1.04
+[24.00] C has no positive weight neighbors to send its payloads. Best weight: -0.04 to E, ETX to E: 1.04
+[24.00] D has no positive weight neighbors to send its payloads. Best weight: -0.12 to G, ETX to G: 1.12
+[24.00] E has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 1.04
+[24.00] F has no positive weight neighbors to send its payloads. Best weight: -0.04 to G, ETX to G: 1.04
+[24.00] A state: queue=3, payloads=['pkt 17, gen_time=17', 'pkt 18, gen_time=18', 'pkt 19, gen_time=19']
+[24.00] B state: queue=2, payloads=['pkt 14, gen_time=14', 'pkt 16, gen_time=16']
+[24.00] C state: queue=2, payloads=['pkt 13, gen_time=13', 'pkt 15, gen_time=15']
+[24.00] D state: queue=1, payloads=['pkt 12, gen_time=12']
+[24.00] E state: queue=1, payloads=['pkt 11, gen_time=11']
+[24.00] F state: queue=1, payloads=['pkt 0, gen_time=0']
+[24.00] G state: queue=0, payloads=['pkt 1, gen_time=1', 'pkt 2, gen_time=2', 'pkt 3, gen_time=3', 'pkt 4, gen_time=4', 'pkt 5, gen_time=5', 'pkt 6, gen_time=6', 'pkt 7, gen_time=7', 'pkt 9, gen_time=9', 'pkt 8, gen_time=8']
+pkt 17, gen_time=17 stay at node A with delay 7.00 seconds
+pkt 18, gen_time=18 stay at node A with delay 6.00 seconds
+pkt 19, gen_time=19 stay at node A with delay 5.00 seconds
+pkt 14, gen_time=14 stay at node B with delay 10.00 seconds
+pkt 16, gen_time=16 stay at node B with delay 8.00 seconds
+pkt 13, gen_time=13 stay at node C with delay 11.00 seconds
+pkt 15, gen_time=15 stay at node C with delay 9.00 seconds
+pkt 12, gen_time=12 stay at node D with delay 12.00 seconds
+pkt 11, gen_time=11 stay at node E with delay 13.00 seconds
+pkt 0, gen_time=0 stay at node F with delay 24.00 seconds
+pkt 1, gen_time=1 arrived at sink G with delay 11.01 seconds
+pkt 2, gen_time=2 arrived at sink G with delay 11.01 seconds
+pkt 3, gen_time=3 arrived at sink G with delay 11.01 seconds
+pkt 4, gen_time=4 arrived at sink G with delay 11.01 seconds
+pkt 5, gen_time=5 arrived at sink G with delay 11.01 seconds
+pkt 6, gen_time=6 arrived at sink G with delay 11.01 seconds
+pkt 7, gen_time=7 arrived at sink G with delay 11.01 seconds
+pkt 9, gen_time=9 arrived at sink G with delay 11.01 seconds
+pkt 8, gen_time=8 arrived at sink G with delay 13.01 seconds
+
+Scheduling method: FIFO
+
+Average delay for all packets: 11.00 seconds
+
+Average delay for packets that reached the sink: 11.23 seconds

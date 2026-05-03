@@ -1,0 +1,139 @@
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./random_walk_test.py --scheduling=FIFO --arrival_rate=0.2
+
+Scheduling method: FIFO
+
+Average delay for all packets: 19943.48 seconds
+
+Average delay for packets that reached the sink: 3.30 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 0.2 packets/second
+
+Average throughput: 0.04 packets/second
+
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./random_walk_test.py --scheduling=FIFO --arrival_rate=0.4
+
+Scheduling method: FIFO
+
+Average delay for all packets: 9827.83 seconds
+
+Average delay for packets that reached the sink: 3.57 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 0.4 packets/second
+
+Average throughput: 0.09 packets/second
+
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./random_walk_test.py --scheduling=FIFO --arrival_rate=0.6
+
+Scheduling method: FIFO
+
+Average delay for all packets: 6574.93 seconds
+
+Average delay for packets that reached the sink: 4.10 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 0.6 packets/second
+
+Average throughput: 0.13 packets/second
+
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./random_walk_test.py --scheduling=FIFO --arrival_rate=0.8
+
+Scheduling method: FIFO
+
+Average delay for all packets: 4922.11 seconds
+
+Average delay for packets that reached the sink: 7.17 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 0.8 packets/second
+
+Average throughput: 0.17 packets/second
+
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./random_walk_test.py --scheduling=FIFO --arrival_rate=1.0
+
+Scheduling method: FIFO
+
+Average delay for all packets: 4002.69 seconds
+
+Average delay for packets that reached the sink: 835.01 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 1.0 packets/second
+
+Average throughput: 0.18 packets/second
+
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./random_walk_test.py --scheduling=FIFO --arrival_rate=1.2
+
+Scheduling method: FIFO
+
+Average delay for all packets: 3201.13 seconds
+
+Average delay for packets that reached the sink: 1231.36 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 1.2 packets/second
+
+Average throughput: 0.18 packets/second
+
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./random_walk_test.py --scheduling=FIFO --arrival_rate=1.4
+
+Scheduling method: FIFO
+
+Average delay for all packets: 2605.64 seconds
+
+Average delay for packets that reached the sink: 1426.95 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 1.4 packets/second
+
+Average throughput: 0.18 packets/second
+
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./random_walk_test.py --scheduling=FIFO --arrival_rate=1.6
+
+Scheduling method: FIFO
+
+Average delay for all packets: 2137.73 seconds
+
+Average delay for packets that reached the sink: 1444.77 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 1.6 packets/second
+
+Average throughput: 0.18 packets/second
+
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./random_walk_test.py --scheduling=FIFO --arrival_rate=1.8
+
+Scheduling method: FIFO
+
+Average delay for all packets: 1768.00 seconds
+
+Average delay for packets that reached the sink: 1454.01 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 1.8 packets/second
+
+Average throughput: 0.18 packets/second
+
+PS C:\Users\gs200\GoogleDrive-Personal-gs2008120342\Academic\Course_Materials\USC-PhD\EE597-Wireless_Networks\Final Project\PyWiSim> python ./random_walk_test.py --scheduling=FIFO --arrival_rate=2.0
+
+Scheduling method: FIFO
+
+Average delay for all packets: 1503.21 seconds
+
+Average delay for packets that reached the sink: 1423.18 seconds
+
+Total packets generated: 10080
+
+Arrival rate: 2.0 packets/second
+
+Average throughput: 0.17 packets/second
